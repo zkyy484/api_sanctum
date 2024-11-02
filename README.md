@@ -12,7 +12,8 @@
   - Keterangan: Melakukan login dengan menggunakan endpoint post dan secara otomatis akan muncul respon berupa token yang nantinya digunakan untuk melakukan beberapa permintaan/request sesuai dengan yang dibutuhkan.
 
 - Menyimpan Data Mahasiswa (POST)
-  ![image](https://github.com/user-attachments/assets/7e02d2e5-dc8c-411b-bda8-84ff24abb9f9)
+  <img width="670" alt="image" src="https://github.com/user-attachments/assets/5192c9f9-4614-4b50-9178-61ffbb42febc">
+
   - Keterangan: Melakukan input data mahasiswa menggunakan endpoint post dan memasukkan body beserta dengan token yang sudah didapatkan tadi. Saat mengirimkan perintah akan secara otomatis menambahkan data mahasiswa pada tabel mahasiswas.
 
 - Mengambil Semua Data Mahasiswa (GET)
