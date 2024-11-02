@@ -24,7 +24,23 @@
   - Keterangan: Melakukan hapus data mahasiswa sesuai dengan id mahasiswa dengan menggunakan endpoint delete dan mengisi token yang sudah didapatkan tadi. Sehingga saat mengirimkan permintaan/request akan secara otomatis menghapus data tersebut pada tabel mahasiswas.
 
 **2. Tugas Pratikum**
-- Menambahkan Admin Yang Memiliki Role Admin
-  ![image](https://github.com/user-attachments/assets/5fa4fe4f-d6ab-432a-a126-e24c230136d9)
-  - Keterangan: 
+- Menambahkan Role Pada Tabel Mahasiswas
+  - Membuat migrate baru untuk menambahkan role pada tabel user
+  ![image](https://github.com/user-attachments/assets/a06a6851-073a-40cd-bf4b-c812bd04c404)
+
+  ![image](https://github.com/user-attachments/assets/ea99e257-0aa6-4e1f-b8ea-e53e48729220)
+
+  ![image](https://github.com/user-attachments/assets/394dfc32-fb45-43a1-a381-c9cd1f9266bd)
+      - Keterangan: Membuat kolom role pada tabel mahasiswas yang digunakan sebagai pembeda hak akses antara user dan admin. Secara otomatis data users yang ada akan secara default menjadi role user.
+
+- Mengisi Data Admin Baru Dengan Role Admin
+  - Mengisi data admin pada seeder
+    ![image](https://github.com/user-attachments/assets/54daa933-adfc-44d5-8893-e8386cf72913)
+      - Keterangan: Mengisi data admin baru dengan role admin pada seeder agar lebih efisien dalam pengaksesan admin.
+  - Melakukan migrate data
+    ![image](https://github.com/user-attachments/assets/f90891c0-a599-4e92-8ae9-8a1e2f9513a5)
+      - Keterangan: Melakukan pengiriman data admin baru kepada tabel users dengan melakukan perintah db:seed.
+
+
+
 
