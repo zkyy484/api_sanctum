@@ -50,7 +50,7 @@
 
 
   - Membuat data mahasiswa (POST)
-    <img width="674" alt="image" src="https://github.com/user-attachments/assets/2b4d6279-d4f9-414c-adae-c60ab478a026">
+    <img width="670" alt="image" src="https://github.com/user-attachments/assets/435ccbd9-ebf6-41f9-8131-25d5f03e3ba1">
     - Keterangan: Melakukan penambahan data mahasiswa dengan menggunakan token yang sudah didapatkan tadi serta menambahkan data pada body untuk memasukkan data yang ingin diinputkan. 
 
 
