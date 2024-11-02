@@ -27,10 +27,8 @@
 - Menambahkan Role Pada Tabel Mahasiswas
   - Membuat migrate baru untuk menambahkan role pada tabel user
   ![image](https://github.com/user-attachments/assets/a06a6851-073a-40cd-bf4b-c812bd04c404)
-
-  ![image](https://github.com/user-attachments/assets/ea99e257-0aa6-4e1f-b8ea-e53e48729220)
-
-  ![image](https://github.com/user-attachments/assets/394dfc32-fb45-43a1-a381-c9cd1f9266bd)
+    ![image](https://github.com/user-attachments/assets/ea99e257-0aa6-4e1f-b8ea-e53e48729220)
+    ![image](https://github.com/user-attachments/assets/394dfc32-fb45-43a1-a381-c9cd1f9266bd)
       - Keterangan: Membuat kolom role pada tabel mahasiswas yang digunakan sebagai pembeda hak akses antara user dan admin. Secara otomatis data users yang ada akan secara default menjadi role user.
 
 - Mengisi Data Admin Baru Dengan Role Admin
@@ -40,6 +38,11 @@
   - Melakukan migrate data
     ![image](https://github.com/user-attachments/assets/f90891c0-a599-4e92-8ae9-8a1e2f9513a5)
       - Keterangan: Melakukan pengiriman data admin baru kepada tabel users dengan melakukan perintah db:seed.
+
+    - Data Pada Tabel Users
+      ![image](https://github.com/user-attachments/assets/368c4ee8-98fa-423c-a7c1-6c9d6470f2a0)
+           
+
 
 
 
