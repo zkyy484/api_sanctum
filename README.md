@@ -56,30 +56,35 @@
   - Login Admin (POST)
     
     <img width="673" alt="image" src="https://github.com/user-attachments/assets/c52e12e9-376f-4f3a-bd6e-7934ba76617c">
+    
     - Keterangan: Melakukan login admin sesuai dengan data yang memiliki role admin untuk mendapatkan token yang nantinya digunakan untuk melakukan beberapa endpoint atau request sesuai dengan kebutuhan.
 
 
   - Membuat data mahasiswa (POST)
     
     <img width="670" alt="image" src="https://github.com/user-attachments/assets/435ccbd9-ebf6-41f9-8131-25d5f03e3ba1">
+    
     - Keterangan: Melakukan penambahan data mahasiswa dengan menggunakan token yang sudah didapatkan tadi serta menambahkan data pada body untuk memasukkan data yang ingin diinputkan. 
 
 
   - Melihat data mahasiswa (GET)
  
     <img width="666" alt="image" src="https://github.com/user-attachments/assets/85e7630b-70e1-4212-a484-0b072e3f3cd5">
+    
     - Keterangan: Melihat semua data mahasiswa yang ada dengan menggunakan token yang sudah didaptakan tadi.
 
 
   - Mengubah data mahasiswa (PUT)
     
     <img width="670" alt="image" src="https://github.com/user-attachments/assets/fd7918d8-50e5-4179-a0f0-b51028be96a3">
+    
     - Keterangan: Mengubah data mahasiswa sesuai dengan id data mahasiswa menggunakan token yang sudah didapatkan tadi serta menambahkan data pada body untuk melakukan perubahan pada data.
 
 
   - Menghapus data mahasiswa (DELETE)
     
     <img width="665" alt="image" src="https://github.com/user-attachments/assets/1672422f-7e54-4fbd-a49c-39b7d5d41b1e">
+    
     - Keterangan: Menghapus data mahasiswa sesuai dengan id data mahasiswa menggunakan token yang sudah didapatkan.
     
 
