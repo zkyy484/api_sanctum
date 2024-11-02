@@ -21,6 +21,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::middleware('auth:sanctum')->group(function () {
     Route::apiResource('mahasiswas', MahasiswaController::class);
+    Route::delete('/api/mahasiswas/{id}', 'MahasiswaController@destroy')->middleware('admin');
+    Route::post('/api/mahasiswas', 'MahasiswaController@store')->middleware('admin'); 
+    Route::put('/api/mahasiswas/{id}', 'MahasiswaController@update')->middleware('admin');
 });
 
 Route::post('/register', [AuthController::class, 'register']);

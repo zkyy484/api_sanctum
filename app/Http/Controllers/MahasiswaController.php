@@ -29,9 +29,23 @@ class MahasiswaController extends Controller
 
     public function update(Request $request, $id)
     {
+        // $mahasiswa = Mahasiswa::findOrFail($id);
+        // $mahasiswa->update($request->all());
+        // return $mahasiswa;
+
+        $validatedData = $request->validate([
+            'nama' => 'required|string',
+            'nim' => 'required|string|unique:mahasiswas,nim,'.$id,
+            'jurusan' => 'required|string'
+        ]);
+
         $mahasiswa = Mahasiswa::findOrFail($id);
-        $mahasiswa->update($request->all());  // Mengupdate data
-        return $mahasiswa;
+        $mahasiswa->update($validatedData);
+
+        return response()->json([
+            'message' => 'Data mahasiswa berhasil diperbarui',
+            'data' => $mahasiswa
+        ]);
     }
 
     public function destroy($id)

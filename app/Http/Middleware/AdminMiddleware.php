@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AdminMiddleware
 {
@@ -16,11 +17,19 @@ class AdminMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-        if ($request->user()->role !== 'admin') {
-            return response()->json(['message' => 'Unauthorized'], 403);
+        // if ($request->user()->role !== 'admin') {
+        //     return response()->json(['message' => 'Unauthorized'], 403);
+        // }
+    
+    
+        // return $next($request);
+
+        // Periksa apakah pengguna terotentikasi dan memiliki peran admin
+        if (Auth::check() && Auth::user()->role === 'admin') {
+            return $next($request);
         }
-    
-    
-        return $next($request);
+
+        // Jika bukan admin, kembalikan respons "Unauthorized"
+        return response()->json(['message' => 'Unauthorized. Only admins can perform this action.'], 403);
     }
 }
