@@ -41,7 +41,33 @@
 
   - Data Pada Tabel Users
       ![image](https://github.com/user-attachments/assets/368c4ee8-98fa-423c-a7c1-6c9d6470f2a0)
-           
+
+- Melakukan Perintah CRUD (Login sebagai role Admin)
+  - Login Admin (POST)
+    <img width="673" alt="image" src="https://github.com/user-attachments/assets/c52e12e9-376f-4f3a-bd6e-7934ba76617c">
+    - Keterangan:
+
+
+  - Membuat data mahasiswa (POST)
+    <img width="674" alt="image" src="https://github.com/user-attachments/assets/2b4d6279-d4f9-414c-adae-c60ab478a026">
+    - Keterangan:
+
+
+  - Melihat data mahasiswa (GET)
+    <img width="671" alt="image" src="https://github.com/user-attachments/assets/8b4f5eb5-6efe-43bc-ab0d-9ccb8ac7a1cb">
+    - Keterangan:
+
+
+  - Mengubah data mahasiswa (PUT)
+    <img width="670" alt="image" src="https://github.com/user-attachments/assets/fd7918d8-50e5-4179-a0f0-b51028be96a3">
+    - Keterangan:
+
+
+  - Menghapus data mahasiswa (DELETE)
+    <img width="665" alt="image" src="https://github.com/user-attachments/assets/1672422f-7e54-4fbd-a49c-39b7d5d41b1e">
+    - Keterangan: 
+    
+
 
 
 
