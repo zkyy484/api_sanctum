@@ -34,6 +34,7 @@
 
 - Mengisi Data Admin Baru Dengan Role Admin
   - Mengisi data admin pada seeder
+    
     ![image](https://github.com/user-attachments/assets/54daa933-adfc-44d5-8893-e8386cf72913)
       - Keterangan: Mengisi data admin baru dengan role admin pada seeder agar lebih efisien dalam pengaksesan admin.
   - Melakukan migrate data
