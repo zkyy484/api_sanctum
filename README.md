@@ -39,7 +39,7 @@
     ![image](https://github.com/user-attachments/assets/f90891c0-a599-4e92-8ae9-8a1e2f9513a5)
       - Keterangan: Melakukan pengiriman data admin baru kepada tabel users dengan melakukan perintah db:seed.
 
-    - Data Pada Tabel Users
+  - Data Pada Tabel Users
       ![image](https://github.com/user-attachments/assets/368c4ee8-98fa-423c-a7c1-6c9d6470f2a0)
            
 
