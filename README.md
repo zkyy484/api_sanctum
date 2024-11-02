@@ -55,7 +55,7 @@
 
 
   - Melihat data mahasiswa (GET)
-    <img width="671" alt="image" src="https://github.com/user-attachments/assets/8b4f5eb5-6efe-43bc-ab0d-9ccb8ac7a1cb">
+    <img width="666" alt="image" src="https://github.com/user-attachments/assets/85e7630b-70e1-4212-a484-0b072e3f3cd5">
     - Keterangan: Melihat semua data mahasiswa yang ada dengan menggunakan token yang sudah didaptakan tadi.
 
 
